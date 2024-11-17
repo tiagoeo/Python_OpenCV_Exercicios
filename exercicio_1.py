@@ -34,3 +34,10 @@ imagem_hsv = cv2.cvtColor(imagem, cv2.COLOR_BGR2HLS)
 # Mostrando imagem
 cv2.imshow('Imagem HLS', imagem_hsv)
 cv2.waitKey(2000)
+
+# Imagem Matiz
+imagem_Matiz = imagem_hsv[:,:,0]
+
+# Mostrando imagem
+cv2.imshow('Imagem Matiz', imagem_Matiz)
+cv2.waitKey(2000)
