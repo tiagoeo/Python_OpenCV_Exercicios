@@ -17,6 +17,8 @@
     conda update anaconda-navigator  
 
     conda update navigator-updater
+
+    conda install -c https://conda.binstar.org/menpo opencv
 </p>
 <hr><h2 align="left">LINGUAGENS E FERRAMENTAS</h2>
 <p align="center">
