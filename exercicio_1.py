@@ -27,3 +27,10 @@ imagem2 = cv2.cvtColor(imagem2, cv2.COLOR_BGR2RGB)
 # Mostrando imagem
 cv2.imshow('Nova imagem em RGB', imagem2)
 cv2.waitKey(2000)
+
+# Imagem HSV
+imagem_hsv = cv2.cvtColor(imagem, cv2.COLOR_BGR2HLS)
+
+# Mostrando imagem
+cv2.imshow('Imagem HLS', imagem_hsv)
+cv2.waitKey(2000)
