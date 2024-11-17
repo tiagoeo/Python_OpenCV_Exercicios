@@ -1,5 +1,4 @@
 import cv2
-import matplotlib.pyplot as plt
 
 # Lendo uma imagem
 #imagem = cv2.imread("imagem.png")
@@ -42,9 +41,9 @@ imagem_Matiz = imagem_hsv[:,:,0]
 cv2.imshow('Imagem Matiz', imagem_Matiz)
 cv2.waitKey(2000)
 
-# Imagem HUE Real
+# Imagem HUE
 imagem_Hue = imagem_hsv[:,:,1]
 
 # Mostrando imagem
-cv2.imshow('Imagem HUE Real', imagem_Hue)
+cv2.imshow('Imagem HUE', imagem_Hue)
 cv2.waitKey(2000)
