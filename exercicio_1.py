@@ -41,3 +41,10 @@ imagem_Matiz = imagem_hsv[:,:,0]
 # Mostrando imagem
 cv2.imshow('Imagem Matiz', imagem_Matiz)
 cv2.waitKey(2000)
+
+# Imagem HUE Real
+imagem_Hue = imagem_hsv[:,:,1]
+
+# Mostrando imagem
+cv2.imshow('Imagem HUE Real', imagem_Hue)
+cv2.waitKey(2000)
